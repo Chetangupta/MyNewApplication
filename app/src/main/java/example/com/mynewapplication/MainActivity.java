@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         checkLoginScreen();
+        btnCheck=(Button)findViewById(R.id.btn_check);
         btnCheck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -91,7 +92,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void checkFingerPrintAuthentication(){
 
-    }
 }
